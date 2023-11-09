@@ -1,0 +1,17 @@
+#include "oplsaa.ff/forcefield.itp"
+#include "atmtps.itp"
+#include "cetane.itp"
+#include "methben.itp"
+#include "resin3.itp"
+#include "oplsaa.ff/spce.itp"
+#include "oplsaa.ff/ions.itp"
+
+
+[ system ]
+;name
+AES Simulationbox
+
+[ molecules ]
+CTN	380
+MEB	23
+RSN3	3
